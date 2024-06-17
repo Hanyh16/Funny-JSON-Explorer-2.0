@@ -12,7 +12,7 @@ python main.py -f <json file> -s <style> -i <icon family>
 
 1. **迭代器模式**（Iterator Pattern）：`Iterator`类是迭代器，其具有的`has_more`方法和`get_next`方法实现了在不暴露集合底层表现形式的情况下遍历集合中所有的元素。
 
-2. **策略模式**（Strategy Pattern）：`Strategy`是策略接口，是所有具体策略的通用接口，`TreeStyleStrategy`和`RectangleStyleStrategy`是具体策略，实现了不同风格的`draw`方法，它们一起实现了策略模式。
+2. **策略模式**（Strategy Pattern）：`Strategy`是策略接口，是所有具体策略的通用接口，`TreeStyleStrategy`和`RectangleStyleStrategy`是具体策略，实现了不同风格的`draw`方法和`draw_node`方法，它们一起实现了策略模式。
 
 
 ## 可扩展性
